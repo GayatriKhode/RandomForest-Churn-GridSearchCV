@@ -1,0 +1,12 @@
+Best parameters: {'forest__max_depth': 10, 'forest__max_features': 'sqrt', 'forest__n_estimators': 100}
+Best 3-fold CV accuracy: 0.7413
+Test accuracy: 0.7450
+
+              precision    recall  f1-score   support
+
+          No       0.76      0.93      0.84       140
+         Yes       0.66      0.32      0.43        60
+
+    accuracy                           0.74       200
+   macro avg       0.71      0.62      0.63       200
+weighted avg       0.73      0.74      0.71       200
